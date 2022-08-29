@@ -9,7 +9,7 @@
     "dist"
   ],
   "scripts": {
-    "rollup": "rollup -c"
+    "build": "rollup -c"
   },
   "keywords": [],
   "author": "Phillmont Muktar",
