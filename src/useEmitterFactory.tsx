@@ -4,8 +4,8 @@ type BasicEmitter = { [key: string]: any };
 
 type Binder<Emitter> = (emitter: Emitter) => void;
 
-export type EmitterFactory = <Emitter extends BasicEmitter>(
-  props: Emitting<Emitter>,
+type EmitterFactory = <Emitter extends BasicEmitter>(
+  props: Emits<Emitter>,
   emitters: Emitter,
   dependencies?: DependencyList,
 ) => void;
